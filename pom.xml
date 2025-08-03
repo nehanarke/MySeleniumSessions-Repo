@@ -46,7 +46,7 @@
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>7.10.2</version>
-    
+    <scope>test</scope>
 </dependency>
 
 	<dependency>
@@ -71,5 +71,14 @@
 <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
 
   </dependencies>
-	
+<build>
+    <plugins>
+      <!-- Place the surefire plugin here -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.0.0-M9</version>
+      </plugin>
+    </plugins>
+  </build>	
 </project>
