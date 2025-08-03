@@ -1,0 +1,15 @@
+<!-- -->
+<suite name="Test All testcases">
+	<test name="execute testcases">
+		
+	<classes>
+		<class name="com.test.Assertion"/>	
+		<class name="com.test.googletest1"/>
+		<class name="com.test.TestingFeatures"/>
+		<class name="com.test.TestNGBasics"/>
+		
+		
+	</classes>
+		</test>
+	
+</suite>

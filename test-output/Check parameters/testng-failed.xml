@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Check parameters]">
+  <parameter name="env" value="DEV"/>
+  <parameter name="login" value="logged"/>
+  <test name="tests for parameters(failed)" preserve-order="true">
+    <parameter name="env" value="DEV"/>
+    <parameter name="login" value="logged"/>
+    <classes>
+      <class name="com.test.ParametersTest">
+        <methods>
+          <include name="webpage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.test.ParametersTest -->
+    </classes>
+  </test> <!-- tests for parameters(failed) -->
+</suite> <!-- Failed suite [Check parameters] -->

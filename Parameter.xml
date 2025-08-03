@@ -1,0 +1,16 @@
+<suite name="Check parameters">
+	<test name="tests for parameters">
+		
+	<parameter name="env" value="https://demoqa.com/automation-practice-form"/>
+			
+	<parameter name="login" value="neha@gmail.com"/>	
+		
+		
+	<classes>
+	<class name="com.test.ParametersTest"/>	
+			
+</classes>
+		
+	</test>
+	
+</suite>

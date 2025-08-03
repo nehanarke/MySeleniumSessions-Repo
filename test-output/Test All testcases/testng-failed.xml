@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test All testcases]">
+  <test name="execute testcases(failed)" preserve-order="true">
+    <classes>
+      <class name="com.test.Assertion">
+        <methods>
+          <include name="openpage"/>
+          <include name="titlepage"/>
+        </methods>
+      </class> <!-- com.test.Assertion -->
+      <class name="com.test.TestNGBasics">
+        <methods>
+          <include name="pre"/>
+          <include name="logout"/>
+          <include name="test"/>
+          <include name="generatereports"/>
+          <include name="closebrowser"/>
+          <include name="launch"/>
+          <include name="url"/>
+          <include name="delete"/>
+        </methods>
+      </class> <!-- com.test.TestNGBasics -->
+      <class name="com.test.googletest1">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.test.googletest1 -->
+    </classes>
+  </test> <!-- execute testcases(failed) -->
+</suite> <!-- Failed suite [Test All testcases] -->
